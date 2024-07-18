@@ -11,6 +11,7 @@ it("user should be create", async () => {
   const userRepositoryInMemory = new UserRepositoryInMemory()
   const userCreateService = new UserCreateService(userRepositoryInMemory);
   const userCreated = await userCreateService.execute(user)
+  
 
   console.log(userCreated)
 
