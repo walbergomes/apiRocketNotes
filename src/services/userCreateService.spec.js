@@ -17,16 +17,4 @@ describe("UserCreateService", () => {
   
     expect(userCreated).toHaveProperty("id")
   });
-
-
-  it("another test", () => {
-    expect(1).toBe(1)
-  });
-})
-
-// O ideal é ter um "describe" por arquivo. Aqui tem 2 por questão de exemplo. 
-describe("NotesCreateService", () => {
-  it("create notes",  async () => {
-    expect(1).toBe(1)
-  })
 })
